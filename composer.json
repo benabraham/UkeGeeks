@@ -1,9 +1,1 @@
-{
-  "name": "ukegeeks heroku",
-  "scripts": {
-    "compile": [
-      "gulp build-styles",
-      "gulp build-scripts"
-    ]
-  }
-}
+{}
