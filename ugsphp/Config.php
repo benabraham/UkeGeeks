@@ -40,15 +40,15 @@ class Config {
 	// --------------------------------------
 	// Attribution & Site Credits
 	// --------------------------------------
-	const PageTitleSuffix = ' | UkeGeek\'s Scriptasaurus';
+	const PageTitleSuffix = '';
 	const PoweredBy = 'UkeGeeks-Scriptasaurus-v1.4';
-	const SupportEmail = 'buz@your-domain-not-mine.com';
+	const SupportEmail = 'srb.dan+ukesongs@gmail.com';
 
 	// --------------------------------------
 	// Page Headings & Titles
 	// --------------------------------------
-	const SongbookHeadline  = 'The BIG UKE Book';
-	const SongbookSubHeadline = 'Sample Styled Songbook &raquo;';
+	const SongbookHeadline  = 'Uke fakebook';
+	const SongbookSubHeadline = '';
 
 	// --------------------------------------
 	// Boolean Options/Settings
