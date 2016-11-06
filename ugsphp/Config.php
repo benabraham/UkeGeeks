@@ -59,7 +59,7 @@ class Config {
 	 * @constant(UseModRewrite)
 	 * @var Boolean
 	 */
-	const UseModRewrite = false;
+	const UseModRewrite = true;
 
 	/**
 	 * if true the Songbook shows the dedtailed (title, artist, subtitle) song page and uses the song list cache.
