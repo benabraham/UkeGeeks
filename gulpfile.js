@@ -159,4 +159,5 @@ gulp
 	.task('build-styles', stylesTask)
 	.task('build-scripts', jsTask)
 	.task('watch', watchTask)
+	.task('build-prod', ['build-styles', 'build-scripts'])
 	.task('default', ['build-styles', 'build-scripts', 'watch']);
