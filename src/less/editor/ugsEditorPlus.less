@@ -5,8 +5,20 @@
  * Author     : Buz
  * Description: Classes used by UkeGeeks "Song-a-Matic" Editor.
 */
-h1 {
-	background-color: skyblue;
+
+.randomColor() {
+  @randomColor: `(Math.random()*0xFFFFFF<<0).toString(16)`;
+  @colorHex: e(@randomColor);
+  @color: ~"#@{colorHex}";
+}
+
+h1:before{
+  content:" ";
+  display:block;
+  width:100%;
+  height: 10px;
+  .randomColor();
+  background-color: @color;
 }
 
 .salt_July15_880X7J {
