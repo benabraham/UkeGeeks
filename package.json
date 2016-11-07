@@ -5,7 +5,7 @@
 	"main": "gulpfile.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"postinstall": "gulp build-scripts"
+		"build": "gulp build-prod"
     },
 	"repository": {
 		"type": "git",
